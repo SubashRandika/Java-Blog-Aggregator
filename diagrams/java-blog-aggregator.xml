@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><entities>
+	<entity>
+		<entity-name>com.randika.spring.entity.User</entity-name>
+		<entity-width>120</entity-width>
+		<entity-height>206</entity-height>
+		<entity-X-Coordinate>305</entity-X-Coordinate>
+		<entity-Y-Coordinate>55</entity-Y-Coordinate>
+		<primary-collapsed>false</primary-collapsed>
+		<relation-collapsed>false</relation-collapsed>
+		<basic-collapsed>false</basic-collapsed>
+	</entity>
+
+	<entity>
+		<entity-name>com.randika.spring.entity.Item</entity-name>
+		<entity-width>120</entity-width>
+		<entity-height>206</entity-height>
+		<entity-X-Coordinate>640</entity-X-Coordinate>
+		<entity-Y-Coordinate>230</entity-Y-Coordinate>
+		<primary-collapsed>false</primary-collapsed>
+		<relation-collapsed>false</relation-collapsed>
+		<basic-collapsed>false</basic-collapsed>
+	</entity>
+
+	<entity>
+		<entity-name>com.randika.spring.entity.Blog</entity-name>
+		<entity-width>120</entity-width>
+		<entity-height>186</entity-height>
+		<entity-X-Coordinate>110</entity-X-Coordinate>
+		<entity-Y-Coordinate>270</entity-Y-Coordinate>
+		<primary-collapsed>false</primary-collapsed>
+		<relation-collapsed>false</relation-collapsed>
+		<basic-collapsed>false</basic-collapsed>
+	</entity>
+
+	<entity>
+		<entity-name>com.randika.spring.entity.Role</entity-name>
+		<entity-width>120</entity-width>
+		<entity-height>146</entity-height>
+		<entity-X-Coordinate>28</entity-X-Coordinate>
+		<entity-Y-Coordinate>65</entity-Y-Coordinate>
+		<primary-collapsed>false</primary-collapsed>
+		<relation-collapsed>false</relation-collapsed>
+		<basic-collapsed>false</basic-collapsed>
+	</entity>
+</entities>
