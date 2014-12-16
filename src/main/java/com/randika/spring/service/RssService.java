@@ -40,7 +40,7 @@ public class RssService {
     
     private List<Item> getItems(Source source) throws RssException, ParseException {
     
-        ArrayList<Item> itemList = new ArrayList<Item>();
+        List<Item> itemList = new ArrayList<Item>();
         
         try {
             
@@ -60,9 +60,7 @@ public class RssService {
                     item.setTitle(rssItem.getTitle());
                     item.setDescription(rssItem.getDescription());
                     item.setLink(rssItem.getLink());
-                    Date pubDate =
-                            new SimpleDateFormat("EEE, dd MMM yyy HH:mm:ss Z", Locale.ENGLISH).parse(rssItem
-                                    .getPubDate());
+                    Date pubDate = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss Z", Locale.ENGLISH).parse(rssItem.getPubDate());
                     item.setPublishedDate(pubDate);
                     itemList.add(item);
                     

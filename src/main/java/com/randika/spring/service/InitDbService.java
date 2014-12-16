@@ -2,7 +2,6 @@
 package com.randika.spring.service;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
@@ -13,7 +12,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.randika.spring.entity.Blog;
-import com.randika.spring.entity.Item;
 import com.randika.spring.entity.Role;
 import com.randika.spring.entity.User;
 import com.randika.spring.repository.BlogRepository;
@@ -65,6 +63,7 @@ public class InitDbService {
         blogJavavids.setUser(userAdmin);
         blogRepository.save(blogJavavids);
         
+        /*
         Item item1 = new Item();
         item1.setTitle("First");
         item1.setLink("http://www.javavids.com");
@@ -78,6 +77,7 @@ public class InitDbService {
         item2.setPublishedDate(new Date());
         item2.setBlog(blogJavavids);
         itemRepository.save(item2);
+        */
         
     }
     
